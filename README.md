@@ -1,5 +1,5 @@
 # AnaliseFIIS
-Projeto que visa analisar uma base de dados contendo Fundos de Investimento Imobiliário 
+Projeto que visa analisar uma base de dados contendo Fundos de Investimento Imobiliário do Brasil
 
 ## Passo a passo
 - Selecionar uma variável dependente (target) para ter seu valor previsto a partir do valor das demais variáveis. No caso a variável escolhida foi "Rentabilidade";
