@@ -11,3 +11,4 @@ Projeto que visa analisar uma base de dados contendo Fundos de Investimento Imob
 - Foi possível notar uma correlação baixa devido ao tamanho pequeno da base e uma ausência de linearidade entre as variáveis, por isso, decidi aplicar outro algoritmo de regressão (Random Forest) e obter resultados diferentes;
 - Ao usar o algoritmo de Random Forest foi possível notar um salto levemente positivo nas métricas, mas é exemplo de overfitting. O modelo decorou padrões específicos do conjunto de treino que não se generalizam;
 - Foi realizada uma validação cruzada para testar a confiabilidade dos resultados obtidos e é mostrado que a média é menor que o próprio desvio padrão, ou seja, a performance do modelo varia mais entre diferentes amostras dos dados que o próprio "sinal" encontrado, sendo o R² um resultado não confiável.
+- Exemplo clássico de garbage in - garbage out. Se a base de dados é limitada(ruim), a análise será limitada também.
